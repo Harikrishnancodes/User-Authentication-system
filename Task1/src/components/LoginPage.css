@@ -1,0 +1,64 @@
+.App {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f8f8f8;
+    background: url('../assets/25550.jpg')no-repeat center center/cover;
+  }
+  
+  .login-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 300px;
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+    color: #e50914;
+  }
+  
+  input {
+    width: 100%;
+    padding: 6px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  
+  }
+  
+ .butt {
+    width: 100%;
+    padding: 8px;
+    background-color: #e50914;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .butt:hover {
+    background-color: #b2070e;
+  }
+
+  .navbut {
+    display: inline-block;
+   
+    background-color: #010b02; 
+    color: white; 
+    text-decoration: none;
+    border: none;
+    border-radius: 4px; 
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+ 
+  }
+
+  .navbut:hover {
+    background-color: #c60a0a;
+  }
+  
